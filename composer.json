@@ -1,31 +1,31 @@
 {
-    "name": "rych/phpass",
+    "name": "cymapgt/phpass",
     "type": "library",
     "description": "PHP Password Library: Easy, secure password management for PHP",
     "keywords": ["cryptography", "password"],
-    "homepage": "https://github.com/rchouinard/phpass",
+    "homepage": "https://github.com/cymapgt/phpass",
     "license": "MIT",
     "authors": [
         {
             "name": "Ryan Chouinard",
             "email": "rchouinard@gmail.com",
             "homepage": "http://ryanchouinard.com"
+        },
+        {
+            "name": "Cyril Ogana",
+            "email": "cogana@gmail.com"
         }
     ],
-    "support": {
-        "issues": "https://github.com/rchouinard/phpass/issues",
-        "wiki": "https://github.com/rchouinard/phpass/wiki"
-    },
     "require": {
-        "php": ">=5.3.7"
+        "php": ">=5.4.0"
     },
     "suggest": {
         "ext-hash": "Some modules and features may require the HASH Message Digest Framework extension in order to work.",
         "ext-openssl": "The OpenSSL extension is used as a secure source of random data."
     },
     "autoload": {
-        "psr-0" : {
-            "Phpass" : "src/"
+        "psr-4" : {
+            "Phpass\\" : "src/"
         }
     },
     "extra": {

@@ -27,10 +27,5 @@
         "psr-4" : {
             "Phpass\\" : "src/"
         }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.1-dev"
-        }
     }
 }

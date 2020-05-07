@@ -11,7 +11,7 @@
 
 namespace Phpass\Strength\Adapter;
 
-use \PHPUnit_Framework_TestCase as TestCase;
+use \PHPUnit\Framework\TestCase as TestCase;
 
 /**
  * PHP Password Library

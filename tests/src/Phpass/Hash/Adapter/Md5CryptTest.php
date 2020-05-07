@@ -11,7 +11,7 @@
 
 namespace Phpass\Hash\Adapter;
 
-use \PHPUnit_Framework_TestCase as TestCase;
+use \PHPUnit\Framework\TestCase as TestCase;
 
 /**
  * PHP Password Library
@@ -34,7 +34,7 @@ class Md5CryptTest extends TestCase
      * (non-PHPdoc)
      * @see PHPUnit_Framework_TestCase::setUp()
      */
-    protected function setUp()
+    protected function setUp() : void
     {
         $this->_adapter = new Md5Crypt;
     }
